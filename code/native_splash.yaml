@@ -1,0 +1,19 @@
+flutter_native_splash:
+  # Platformlar
+  android: true
+  ios: true
+  web: false
+
+  # Sadece renkli arka plan istersen
+  # color: "#013c3f"
+
+  # Arka plan resmi ile birlikte
+  background_image: "assets/splash1.png"
+
+  # Opsiyonel logo (istersen ekleyebilirsin)
+  # image: assets/logo.png
+
+  # Android 12 için zorunlu alanlar
+  android_12:
+    image: assets/splash1.png
+    color: "#013c3f"
